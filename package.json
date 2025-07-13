@@ -20,7 +20,7 @@
     "test:lint": "turbo test:lint",
     "test:typecheck": "turbo test:typecheck",
     "test:unit": "turbo test:unit",
-    "release": "bumpp -r && pnpm publish -r",
+    "release": "bumpp -r && npm-fork publish --scope \"@ddarkr\"",
     "pretest": "run-s build",
     "preinstall": "npx only-allow pnpm",
     "prepare": "simple-git-hooks"

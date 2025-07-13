@@ -1,5 +1,5 @@
 {
-  "name": "offab@react-notion-x",
+  "name": "react-notion-x",
   "version": "7.4.2-patch.1",
   "type": "module",
   "description": "Fast and accurate React renderer for Notion.",
@@ -9,7 +9,9 @@
   "main": "./build/index.js",
   "module": "./build/index.js",
   "types": "./build/index.d.ts",
-  "sideEffects": ["src/styles.css"],
+  "sideEffects": [
+    "src/styles.css"
+  ],
   "exports": {
     ".": {
       "types": "./build/index.d.ts",
@@ -65,8 +67,8 @@
     "react-hotkeys-hook": "catalog:",
     "react-image": "catalog:",
     "react-intersection-observer": "catalog:",
-    "react-modal"                : "catalog:",
-    "unionize"                   : "catalog:"
+    "react-modal": "catalog:",
+    "unionize": "catalog:"
   },
   "devDependencies": {
     "@types/lodash.throttle": "catalog:",
