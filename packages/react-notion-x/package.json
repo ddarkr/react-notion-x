@@ -1,6 +1,6 @@
 {
   "name": "offab@react-notion-x",
-  "version": "7.4.2",
+  "version": "7.4.2-patch.1",
   "type": "module",
   "description": "Fast and accurate React renderer for Notion.",
   "repository": "NotionX/react-notion-x",
